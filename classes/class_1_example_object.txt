@@ -1,0 +1,11 @@
+Instance of class (employee): Tyler
+
+Attributes:
+total_employee (integer) 5
+gender_employee (hash/object) { "Tyler":m, "Jenna":f, "Lacy":f, "Zanna":nb, "Mason":m }
+clocked_in_employee (integer) 3
+
+Methods:
+calculate_percent_employment_currently_utilized (takes the clocked_in_employee and divides by total_employee, then multipy by 100) = ((5/2)*100) = 60%
+calculate_not_on_the_clock_employee_amount (subtracts clocked_in_employee from total_employee ) = (5-3) = 2 
+hire_employee (adds gender_employee to hash/object via "name": Gender) (Uses f for female, m for male, and nb for non-binary) = { "Auri":nb, "Tyler":m, "Jenna":f, "Lacy":f, "Zanna":nb, "Mason":m }
