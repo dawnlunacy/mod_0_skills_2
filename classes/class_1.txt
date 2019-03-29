@@ -1,0 +1,11 @@
+Class:Employee
+
+Attributes:
+total_employee (integer)
+gender_employee (hash)
+clocked_in_employee (integer)
+
+Methods:
+calculate_percent_employment_currently_utilized (takes the clocked_in_employee and divides by total_employee, then multipy by 100)
+not_on_the_clock_employee_amount (subtracts clocked_in_employee from total_employee )
+hire_employee (adds gender_employee to hash via "name": Gender) (Uses f for female, m for male, and nb for non-binary)
