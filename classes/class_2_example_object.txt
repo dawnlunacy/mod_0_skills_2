@@ -1,0 +1,14 @@
+Instance of class(Menu): Spring Menu
+
+Attributes:
+appetizer_option_amount (integer) 10
+main_course_option_amount(intger) 20
+dessert_amount_total (integer) 3
+dessert_options (string) "ice-cream", "cheesecake", "brownie"
+dessert_amount_sold_out (integer) 1
+
+Methods:
+Calculate_number_of_apptizers_and_main_course_available (add appetizer_option_amount to main_course_option_amount) (10+20= 30)
+Calculate_dessert_amount_available ( take dessert_amount_sold_out and subtract that from dessert_amount_total) (3-1= 2)
+add_dessert (add dessert to dessert_options Also (add 1 to dessert_amount_total for each add_dessert ) =  "creme brulee", "ice-cream" , "cheesecake", "brownie"
+(3+1=4 dessert_amount_total this is also an integer)
