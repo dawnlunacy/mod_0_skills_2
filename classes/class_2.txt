@@ -1,0 +1,13 @@
+Class: Menu
+
+Attributes:
+appetizer_option_amount (integer)
+main_course_option_amount(intger)
+dessert_amount_total (integer)
+dessert_options (string)
+dessert_amount_sold_out (integer)
+
+Methods:
+Calculate_number_of_apptizers_and_main_course_available (add appetizer_option_amount to main_course_option_amount)
+Calculate_dessert_amount_available ( take dessert_amount_sold_out and subtract that from dessert_amount_total)
+add_dessert (add dessert to dessert_options)
